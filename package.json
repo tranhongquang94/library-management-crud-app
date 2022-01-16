@@ -5,13 +5,17 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd client && npm install && npm run build"
+    "build": "cd client && npm install && npm run build"
   },
   "author": "Quang",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
     "mysql2": "^2.3.3",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "16.13.1"
   }
 }

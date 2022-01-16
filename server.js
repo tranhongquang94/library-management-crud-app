@@ -55,6 +55,15 @@ app.post('/api/delete', (req,res) => {
   })
 })
 
+//Path for Deployment
+const path = require('path');
+app.use(express.static(path.join(__dirname,"client","build")));
+
+app.get("*",(req,res) => {
+  res.sendFile(path.join(__dirname, "client", "build", "index.html"));
+});
+
+
 app.listen(PORT, () => {
     console.log(`Express is listening at ${PORT}`);
 })
