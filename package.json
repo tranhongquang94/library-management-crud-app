@@ -1,0 +1,17 @@
+{
+  "name": "library-management-crud-app",
+  "version": "1.0.0",
+  "description": "Basic CRUD App using React, Express and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd client && npm install && npm run build"
+  },
+  "author": "Quang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}
