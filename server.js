@@ -9,11 +9,10 @@ app.use(express.urlencoded());
 //Set up database
 let mysql      = require('mysql2');
 let connection = mysql.createConnection({
-  host: 'localhost',
-  port: '3306',
-  user: 'root',
-  password: 'root',
-  database: 'library'
+  host: 'us-cdbr-east-05.cleardb.net',
+  user: 'b7363e58cada22',
+  password: '1607ffb0',
+  database: 'heroku_d88f0dc6076c3ec?reconnect=true'
 });
 
 connection.connect();
