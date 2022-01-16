@@ -12,7 +12,7 @@ let connection = mysql.createConnection({
   host: 'us-cdbr-east-05.cleardb.net',
   user: 'b7363e58cada22',
   password: '1607ffb0',
-  database: 'heroku_d88f0dc6076c3ec?reconnect=true'
+  database: 'heroku_d88f0dc6076c3ec'
 });
 
 connection.connect();
